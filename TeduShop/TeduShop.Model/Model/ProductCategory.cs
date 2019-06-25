@@ -13,7 +13,7 @@ namespace TeduShop.Model.Model
         {
             Products = new HashSet<Product>();
         }
-
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int ID { get; set; }
 
         [Required]

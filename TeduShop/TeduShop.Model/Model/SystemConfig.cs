@@ -8,6 +8,7 @@ namespace TeduShop.Model.Model
 
     public partial class SystemConfig
     {
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int ID { get; set; }
 
         [Required]

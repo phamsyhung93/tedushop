@@ -8,6 +8,7 @@ namespace TeduShop.Model.Model
 
     public partial class Slide
     {
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int ID { get; set; }
 
         [Required]
