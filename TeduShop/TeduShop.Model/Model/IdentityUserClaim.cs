@@ -8,7 +8,6 @@ namespace TeduShop.Model.Model
 
     public partial class IdentityUserClaim
     {
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
 
         public string UserId { get; set; }

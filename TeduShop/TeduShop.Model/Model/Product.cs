@@ -14,7 +14,7 @@ namespace TeduShop.Model.Model
             OrderDetails = new HashSet<OrderDetail>();
             Tags = new HashSet<Tag>();
         }
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+
         public int ID { get; set; }
 
         [Required]

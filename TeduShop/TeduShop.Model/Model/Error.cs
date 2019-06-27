@@ -8,7 +8,6 @@ namespace TeduShop.Model.Model
 
     public partial class Error
     {
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int ID { get; set; }
 
         public string Message { get; set; }

@@ -13,7 +13,7 @@ namespace TeduShop.Model.Model
         {
             Tags = new HashSet<Tag>();
         }
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+
         public int ID { get; set; }
 
         [Required]
@@ -21,7 +21,6 @@ namespace TeduShop.Model.Model
         public string Name { get; set; }
 
         [Required]
-        [Column(TypeName = "varchar")]
         [StringLength(256)]
         public string Alias { get; set; }
 
